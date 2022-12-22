@@ -6,21 +6,26 @@ public class EmployeeWage {
         System.out.println("Welcome to Employee Wage Computation Program");
         final int WAGE_PER_HR = 20;
         final int FULL_DAY = 8;
-        final int PARTTIME = 1;
+        final int PARTTIME = 4;
         int pay = 0;
-        double num = Math.floor((Math.random() * 10)) % 3;
+        int num = (int) Math.floor((Math.random() * 10)) % 3;
         System.out.println(num);
-        if (num == 1) {
-            System.out.println("Employee is Present ");
-            pay = WAGE_PER_HR * FULL_DAY;
-            System.out.println("Employee Daily Wage "+pay);
+        switch (num) {
+            case 1: {
+                System.out.println("Employee is Present ");
+                pay = WAGE_PER_HR * FULL_DAY;
+            }
+               break;
+            case 2: {
+                System.out.println("Employee is Part-Time");
+                pay = WAGE_PER_HR * PARTTIME;
+            }
+              break;
+            case 0: {
+                System.out.println("Employee is Absent ");
+            }
         }
-        else if (num == 2){
-            System.out.println("Employee is Part-Time");
-            pay = WAGE_PER_HR * PARTTIME;
-        }
-        else{
-            System.out.println("Employee is Absent ");
-        }
+        System.out.println("Employee Daily Wage " + pay);
+
     }
 }
