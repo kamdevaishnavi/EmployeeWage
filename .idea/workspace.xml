@@ -12,7 +12,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UseCasesAll.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brizz/usecase/EmpPreAbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brizz/usecase/WelcomeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/brizz/usecase/EmployeeWage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brizz/usecase/WelcomeMessage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WelcomeMessage">
+  <component name="RunManager" selected="Application.EmployeeWage">
     <configuration name="EmplPreAbs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brizz.usecase.EmplPreAbs" />
       <module name="UseCasesAll" />
@@ -58,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WelcomeMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.brizz.usecase.WelcomeMessage" />
+    <configuration name="EmployeeWage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.brizz.usecase.EmployeeWage" />
       <module name="UseCasesAll" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WelcomeMessage" />
+        <item itemvalue="Application.EmployeeWage" />
         <item itemvalue="Application.EmplPreAbs" />
       </list>
     </recent_temporary>
